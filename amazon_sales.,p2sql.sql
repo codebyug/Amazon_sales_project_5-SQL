@@ -1,6 +1,6 @@
 
 
--- SQL B 06 Day 01
+
 
 CREATE TABLE orders(
                     order_id VARCHAR(10),	
@@ -488,7 +488,7 @@ returns as r
 ON o.order_id = r.order_id
 
 
--- bp 5
+
 
 --Find Top 5 states by total orders where each state sale is greater than average orders accross orders.
     
